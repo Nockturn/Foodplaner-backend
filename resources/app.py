@@ -2,6 +2,7 @@ from flask import Blueprint
 from flask_restplus import Api, Namespace
 from .Hello import Hello
 from .Category import CategoryResource
+from .products import Products
 
 api_ns = Namespace(
 'api', # The namespace name
@@ -16,3 +17,4 @@ api_ns = Namespace(
 # Route
 api_ns.add_resource(Hello, '/Hello')
 api_ns.add_resource(CategoryResource, '/Category')
+api_ns.add_resource(Products, '/products')

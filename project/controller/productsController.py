@@ -11,7 +11,7 @@ def getAllProducts(secret):
         'Content-Type': 'application/json',
         'Authorization': 'Token token=' + secret
     }
-
+    print(secret)
     response = requests.request("GET", url, data=payload, headers=headers)
     data = json.loads(response.text)
 
