@@ -1,16 +1,17 @@
-from flask import Flask, jsonify, request
+''' from flask import Flask, jsonify, request
 from flask_cors import CORS, cross_origin
-import controller.productsController as productsControllerModule
+
 import requests
 import json
-import re
 import os
-import sqlite3
 
 app = Flask(__name__)
 CORS(app)
-app.config.from_pyfile(os.path.join(".", "config/app.conf"), silent=False)
-
+app.config.from_pyfile(os.path.join("../../", "config/app.conf"), silent=False)
+ '''
+from controller import productsController as productsControllerModule
+import app
+import json
 @app.route('/')
 def index():
   return app.config.get('PRODUCTS_SECRET')
@@ -24,3 +25,6 @@ def getProducts():
     mimetype='application/json'
   )
   return res
+
+''' if __name__ == "__main__":
+    app.run() '''
