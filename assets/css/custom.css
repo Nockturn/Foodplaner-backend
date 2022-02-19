@@ -46,3 +46,5 @@ details[open] > div {
   padding: 10px;
   margin-bottom: 10px;
 }
+
+.inner { position: relative; max-width: 70%; padding: 20px 10px; margin: 0 auto; }
