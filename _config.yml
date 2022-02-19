@@ -1,5 +1,8 @@
 title: CCS FAQ
 email: your-email@example.com
+baseurl: "/Foodplaner-backend"
+
+url: "https://nockturn.github.io/"
 
 theme: jekyll-theme-slate
 markdown: kramdown
