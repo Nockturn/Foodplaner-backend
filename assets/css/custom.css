@@ -16,6 +16,7 @@ a {
 a:hover, a:focus {
   color: #a6fafa;
   text-decoration: none;
+  cursor: pointer;
 }
 
 img[src*="#single"] {
@@ -28,6 +29,10 @@ details > summary {
   border-color: grey;
   margin-bottom: 10px;
   border-style: solid;
+}
+
+details > summary:hover {
+  cursor: pointer;
 }
 
 details[open] > summary {
