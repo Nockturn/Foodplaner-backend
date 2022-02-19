@@ -9,4 +9,4 @@ categories: knowledge market config
   * With some
   * Sub bullets
       
-![My helpful screenshot](/assets/image.png)
+![My helpful screenshot]({{ site.baseurl }}/assets/image.png)
