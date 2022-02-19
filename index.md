@@ -24,7 +24,7 @@
   * With some
   * Sub bullets
       
-![My helpful screenshot](/assets/image.jpg)
+![My helpful screenshot](/assets/boulder-klettern-felsklettern-bergsteigen-spruch.png)
     
   </div>
 </details>
