@@ -1,10 +1,34 @@
 ## FAQ
 <details>
-  <summary markdown="1">
+    <summary markdown="0"><strong>Question 1</strong></summary>
+  <div markdown="1">
+
+### heading
+
+1. A numbered
+2. list
+  * With some
+  * Sub bullets
     
-**Click to expand!**
-  
-  </summary>
+  </div>
+</details>
+
+<details>
+  <summary markdown="0"><strong>Question 2</strong></summary>
+  <div markdown="1">
+
+### heading
+
+1. A numbered
+2. list
+  * With some
+  * Sub bullets
+    
+  </div>
+</details>
+
+<details>
+    <summary markdown="0"><strong>Question 3</strong></summary>
   <div markdown="1">
 
 ### heading
