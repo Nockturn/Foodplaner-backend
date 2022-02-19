@@ -2,7 +2,7 @@ a { text-decoration: none; color: #0fd0d0; text-shadow: none; transition: color 
 
 a:hover, a:focus { color: #51fafa;}
 
-.single-img {
+img[src*="#single"] {
     width: 100%;
     height: 100%;
   }
