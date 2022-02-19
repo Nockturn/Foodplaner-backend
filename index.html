@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">  
+        {% assign faqs = site.faqs %}
+        {% for faq in faqs %}
+          <div class="row">
+            {% include faq.html faq=faq %}
+          </div>
+        {% endfor %}
+    </section>
+  </div>
