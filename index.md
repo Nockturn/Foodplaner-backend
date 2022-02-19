@@ -23,6 +23,8 @@
 2. list
   * With some
   * Sub bullets
+      
+![My helpful screenshot](/assets/image.jpg)
     
   </div>
 </details>
